@@ -8,7 +8,7 @@ import { CreateTodoButton } from './CreateTodoButton';
 //import './App.css';
 
 const todos = [
-  {text: 'Study Web Development', completed: true},
+  {text: 'Study Web Development', completed: false},
   {text: 'Meditate', completed: false},
   {text: 'Translate', completed: false},
   {text: 'Study Marketing', completed: false},

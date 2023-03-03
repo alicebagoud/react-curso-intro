@@ -9,17 +9,14 @@ function TodoItem(props) {
         alert('You deleted the to do ' + props.text);
     };
 
-
-
-
     return (
         <li className='TodoItem'>
-            <span 
+            <input 
+                type={'checkbox'} 
                 className={`Icon Icon-check ${props.completed && 'Icon-check--active'}`}
                 onClick={onComplete}
             >
-                √
-            </span>
+            </input>
 
             <p 
                 className={`TodoItem-p ${props.completed && 'TodoItem-p--completed'}`}
