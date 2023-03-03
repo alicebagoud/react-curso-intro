@@ -1,6 +1,8 @@
 .TodoCounter {
-    font-size: 24px;
+    font-size: 42px;
     text-align: center;
     margin: 0;
     padding: 48px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+

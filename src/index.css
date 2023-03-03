@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Mynerve";
+  font-family: 'Source Sans Pro', sans-serif;
   padding: 0;
   background: linear-gradient(to bottom right, pink, rgb(255, 255, 0));
   color: #1E1E1F;
@@ -15,5 +15,5 @@ body {
 }
 
 code {
-  font-family: "Mynerve";
+  font-family: 'Source Sans Pro', sans-serif;
 }
